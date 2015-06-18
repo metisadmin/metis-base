@@ -1,0 +1,30 @@
+{
+  "name": "metis-base",
+  "version": "0.0.1",
+  "homepage": "https://github.com/metisadmin/metis-base",
+  "authors": [
+    "Osman Nuri Okumuş <onokumus@gmail.com>"
+  ],
+  "description": "metis admin base",
+  "main": [
+    "dist/metis-base.css",
+    "dist/metis-base.js"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "admin",
+    "base",
+    "flexbox"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app",
+    "public",
+    "tmp"
+  ]
+}
