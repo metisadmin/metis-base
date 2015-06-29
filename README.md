@@ -1,4 +1,4 @@
-# metis-base [![NPM version](https://badge.fury.io/js/metis-base.svg)](http://badge.fury.io/js/metis-base)  [![Build Status](https://travis-ci.org/metisadmin/metis-base.svg)](https://travis-ci.org/metisadmin/metis-base)
+# metis-base [![NPM version](https://badge.fury.io/js/metis-base.svg)](http://badge.fury.io/js/metis-base) [![Bower version](https://badge.fury.io/bo/metis-base.svg)](http://badge.fury.io/bo/metis-base) [![Build Status](https://travis-ci.org/metisadmin/metis-base.svg)](https://travis-ci.org/metisadmin/metis-base)
 
 > metis admin base
 
@@ -14,6 +14,12 @@ npm install --save metis-base
 
 ```bash
 bower install --save metis-base
+```
+
+**Install with [composer](getcomposer.org)**
+
+```bash
+composer require metisadmin/metis-base:dev-master
 ```
 
 ### Testing

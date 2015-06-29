@@ -1,0 +1,20 @@
+{
+  "name": "metisadmin/metis-base",
+  "description": "metis admin base",
+  "keywords": [
+    "admin",
+    "base"
+  ],
+  "homepage": "https://github.com/metisadmin/metis-base",
+  "authors": [
+    {
+      "name": "Osman Nuri Okumus",
+      "email": "onokumus@gmail.com",
+      "homepage": "http://onokumus.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/metisadmin/metis-base/issues"
+  },
+  "license": "MIT"
+}
