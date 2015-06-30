@@ -4,27 +4,37 @@
 
 ### Install
 
-**Install with [npm](npmjs.com)**
+**Install with [npm](https://www.npmjs.com)**
 
 ```bash
 npm install --save metis-base
 ```
 
-**Install with [bower](bower.io)**
+**Install with [bower](http://bower.io/)**
 
 ```bash
 bower install --save metis-base
 ```
 
-**Install with [composer](getcomposer.org)**
+**Install with [composer](https://getcomposer.org/)**
 
 ```bash
 composer require metisadmin/metis-base:dev-master
 ```
 
+### Download
+**Download from [github](https://github.com/metisadmin/metis-base/archive/master.zip)**
+
 ### Testing
 
+**Required [broccoli-cli](https://github.com/broccolijs/broccoli-cli)**
+
 ```bash
+npm install -g broccoli-cli
+git clone https://github.com/metisadmin/metis-base.git
+cd metis-base
+npm install
+bower install
 broccoli serve
 ```
 
