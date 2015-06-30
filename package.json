@@ -4,7 +4,10 @@
   "description": "metis admin base",
   "main": "Brocfile.js",
   "scripts": {
-    "test": "broccoli serve"
+    "clean": "rm -rf ./dist",
+    "create": "broccoli build dist",
+    "serve": "broccoli serve",
+    "build": "npm run clean && npm run create"
   },
   "repository": {
     "type": "git",
