@@ -1,6 +1,6 @@
 {
   "name": "metis-base",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "metis admin base",
   "main": "Brocfile.js",
   "scripts": {
