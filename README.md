@@ -2,7 +2,7 @@
 
 [![NPM version](https://badge.fury.io/js/metis-base.svg)](http://badge.fury.io/js/metis-base) [![Bower version](https://badge.fury.io/bo/metis-base.svg)](http://badge.fury.io/bo/metis-base) [![PHP version](https://badge.fury.io/ph/metisadmin%2Fmetis-base.svg)](http://badge.fury.io/ph/metisadmin%2Fmetis-base)  [![Build Status](https://travis-ci.org/metisadmin/metis-base.svg)](https://travis-ci.org/metisadmin/metis-base) 
 
-> metis admin base [object Object]
+> metis admin base
 
 ### Install
 
