@@ -1,5 +1,5 @@
 /**
-* metis-base v0.1.0
+* metis-base v0.1.1
 * Homepage : https://github.com/metisadmin/metis-base
 * Author : Osman Nuri Okumuş <onokumus@gmail.com> (https://github.com/onokumus)
 * Copyright 2015
@@ -23,7 +23,7 @@ html {
 body {
   background: #fff;
   color: #222;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
