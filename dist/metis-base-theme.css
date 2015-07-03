@@ -1,5 +1,5 @@
 /**
-* metis-base v0.1.1
+* metis-base v0.1.2
 * Homepage : https://github.com/metisadmin/metis-base
 * Author : Osman Nuri Okumuş <onokumus@gmail.com> (https://github.com/onokumus)
 * Copyright 2015
@@ -9,7 +9,6 @@
 @import "http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700";
 html,
 body {
-  height: 100%;
   font-size: 100%;
 }
 html {
