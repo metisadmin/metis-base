@@ -1,5 +1,5 @@
 /**
-* metis-base v0.1.5
+* metis-base v0.1.6
 * Homepage : https://github.com/metisadmin/metis-base
 * Author : Osman Nuri Okumuş <onokumus@gmail.com> (https://github.com/onokumus)
 * Copyright 2015

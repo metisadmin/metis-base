@@ -19,17 +19,7 @@ var autoprefixPlugin = new LessPluginAutoPrefix({
   browsers: ['last 2 versions', 'ie 10']
 });
 
-var scriptsRoute = '';
-var stylesRoute = '';
-if (process.env.BROCCOLI_ENV !== 'production') {
-  scriptsRoute = 'assets/scripts/';
-  stylesRoute = 'assets/styles/';
-}
-
-var bowerFiles = funnel('bower_components', {
-  srcDir: '/',
-  destDir: '/assets/vendor'
-});
+var bowerFiles = funnel('bower_components');
 var publicFolder = funnel('public');
 var projectFiles = funnel('app');
 var scriptFiles = funnel(projectFiles, {
@@ -45,7 +35,7 @@ var concatenatedLess = concat(less, {
   inputFiles: [
     'app.css'
   ],
-  outputFile: '/' + stylesRoute + packageJson.name + '.css',
+  outputFile: '/' + packageJson.name + '.css',
   header: banner
 });
 
@@ -57,7 +47,7 @@ var concatenatedLessMin = concat(lessMin, {
   inputFiles: [
     'app.min.css'
   ],
-  outputFile: '/' + stylesRoute + packageJson.name + '.min.css',
+  outputFile: '/' + packageJson.name + '.min.css',
   header: banner
 });
 
@@ -68,7 +58,7 @@ var themeConcatenatedLess = concat(theme, {
   inputFiles: [
     'theme.css'
   ],
-  outputFile: '/' + stylesRoute + packageJson.name + '-theme.css',
+  outputFile: '/' + packageJson.name + '-theme.css',
   header: banner
 });
 
@@ -80,7 +70,7 @@ var themeConcatenatedLessMin = concat(themeLessMin, {
   inputFiles: [
     'theme.min.css'
   ],
-  outputFile: '/' + stylesRoute + packageJson.name + '-theme.min.css',
+  outputFile: '/' + packageJson.name + '-theme.min.css',
   header: banner
 });
 
@@ -88,14 +78,14 @@ var concatenatedScripts = concat(scriptFiles, {
   inputFiles: [
     'app.js'
   ],
-  outputFile: '/' + scriptsRoute + packageJson.name + '.js',
+  outputFile: '/' + packageJson.name + '.js',
   header: banner
 });
 var concatenatedScriptsMin = concat(scriptFiles, {
   inputFiles: [
     'app.js'
   ],
-  outputFile: '/' + scriptsRoute + packageJson.name + '.min.js',
+  outputFile: '/' + packageJson.name + '.min.js',
   header: banner
 });
 
@@ -106,9 +96,9 @@ var uglifyScripts = uglifyJavaScript(concatenatedScriptsMin, {
 
 var uglifyScriptsBanner = concat(uglifyScripts, {
   inputFiles: [
-    scriptsRoute + packageJson.name + '.min.js'
+    packageJson.name + '.min.js'
   ],
-  outputFile: '/' + scriptsRoute + packageJson.name + '.min.js',
+  outputFile: '/' + packageJson.name + '.min.js',
   header: banner
 });
 

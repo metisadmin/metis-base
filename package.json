@@ -1,12 +1,12 @@
 {
   "name": "metis-base",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "metis admin base",
   "main": "Brocfile.js",
   "scripts": {
     "clean": "rm -rf ./dist",
     "create": "BROCCOLI_ENV=production broccoli build dist",
-    "serve": "broccoli serve",
+    "start": "broccoli serve",
     "build": "npm run clean && npm run create"
   },
   "repository": {
