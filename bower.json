@@ -25,5 +25,8 @@
     "app",
     "public",
     "tmp"
-  ]
+  ],
+  "devDependencies": {
+    "normalize-css": "^4.2.0"
+  }
 }

@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js"],"sourcesContent":["(function(window) {\n  'use strict';\n\n  window.console.log('metis-base loaded...');\n})(this);\n"],"names":[],"mappings":";;;;;;;;AAAA;AACA;AACA;AACA;AACA;","file":"metis-base.js"}

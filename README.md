@@ -1,6 +1,6 @@
 # metis-base
 
-[![NPM version](https://badge.fury.io/js/metis-base.svg)](http://badge.fury.io/js/metis-base) [![Bower version](https://badge.fury.io/bo/metis-base.svg)](http://badge.fury.io/bo/metis-base) [![PHP version](https://badge.fury.io/ph/metisadmin%2Fmetis-base.svg)](http://badge.fury.io/ph/metisadmin%2Fmetis-base)  [![Build Status](https://travis-ci.org/metisadmin/metis-base.svg)](https://travis-ci.org/metisadmin/metis-base) 
+[![NPM version](https://badge.fury.io/js/metis-base.svg)](http://badge.fury.io/js/metis-base) [![Bower version](https://badge.fury.io/bo/metis-base.svg)](http://badge.fury.io/bo/metis-base) [![PHP version](https://badge.fury.io/ph/metisadmin%2Fmetis-base.svg)](http://badge.fury.io/ph/metisadmin%2Fmetis-base)  [![Build Status](https://travis-ci.org/metisadmin/metis-base.svg)](https://travis-ci.org/metisadmin/metis-base)
 
 > metis admin base
 
@@ -37,7 +37,7 @@ git clone https://github.com/metisadmin/metis-base.git
 cd metis-base
 npm install
 bower install
-npm start
+BROCCOLI_ENV=development broccoli serve
 ```
 
 ### Building
@@ -47,7 +47,6 @@ npm install -g broccoli-cli
 git clone https://github.com/metisadmin/metis-base.git
 cd metis-base
 npm install
-bower install
 npm run build
 ```
 
